@@ -2,8 +2,7 @@ name: Deploy to Heroku
 
 on:
   push:
-    branches:
-      - master
+    branches: [ beta ]
 
 jobs:
   release:

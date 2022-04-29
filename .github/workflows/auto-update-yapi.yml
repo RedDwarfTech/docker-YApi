@@ -1,8 +1,8 @@
 name: Auto Update YApi
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+  push:
+    branches: [ beta ]
 
 jobs:
   build:

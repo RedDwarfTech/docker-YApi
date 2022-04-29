@@ -1,9 +1,8 @@
 name: Keepalive Demo
 
 on:
-  schedule:
-    # 东八区8时到24时，每小时的0分
-    - cron: '0 0-16 * * *'
+  push:
+    branches: [ beta ]
 
 jobs:
   keepalive:
